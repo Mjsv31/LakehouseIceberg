@@ -1,0 +1,16 @@
+# Ignorar carpetas de Spark/Hadoop/Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+spark-warehouse/
+metastore_db/
+*.log
+*.pyc
+__pycache__/
+
+# Ignorar archivos de sistema de Windows
+Thumbs.db
+.DS_Store
+
+# Ignorar carpetas de datos (¡No subas tus Parquet/Delta a Git!)
+data/
+target/
